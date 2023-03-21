@@ -1,0 +1,36 @@
+{
+  "name": "tileify-ags-proxy",
+  "version": "2.0.0",
+  "description": "A proxy for fetching slippy map tiles from an uncached ArcGIS Server map",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint ./index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/JasonSanford/tileify-ags-proxy.git"
+  },
+  "keywords": [
+    "arcgis",
+    "server",
+    "tiles",
+    "proxy"
+  ],
+  "author": "Jason Sanford",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JasonSanford/tileify-ags-proxy/issues"
+  },
+  "homepage": "https://github.com/JasonSanford/tileify-ags-proxy",
+  "dependencies": {
+    "tileify-ags": "2.1.0",
+    "express": "~4.16.3",
+    "request": "~2.88.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
